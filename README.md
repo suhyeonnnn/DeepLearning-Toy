@@ -15,7 +15,6 @@ TensorFlow 기반의 딥러닝 수업 실습 아카이브입니다.
 | [AutoEncoder](./AutoEncoder) | 이미지 압축 및 복원 | AutoEncoder, MNIST |
 | [MLP](./MLP) | 다층 퍼셉트론 분류기 | MLP, Dense, MNIST |
 | [CNN](./CNN) | 합성곱 신경망을 통한 이미지 분류 | CNN, Conv2D, Pooling |
-| [Overfitting](./Overfitting) | 과적합 방지 실험 | Dropout, L2 Regularization |
 
 ```bash
 pip install -r requirements.txt
