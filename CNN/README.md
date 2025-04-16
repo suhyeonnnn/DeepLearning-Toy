@@ -17,3 +17,9 @@ Flatten → Dense(128) → Softmax
 ## 실행 방법
 ```bash
 python main.py
+```
+
+## 실행 결과
+
+<img src="result.png" width="400"/>
+<img src="result2.png" width="400"/>
