@@ -1,20 +1,25 @@
-# MLP (Multi-Layer Perceptron) 실습
+# MLP Image Classifier (Fashion-MNIST)
 
-## 개요
-MNIST 손글씨 숫자 데이터를 이용해 다층 퍼셉트론(MLP)을 구현하여 분류 작업을 수행했습니다.  
-TensorFlow를 활용해 모델을 구성하고, 정확도 및 손실을 시각화했습니다.
+A simple image classification project using Multi-Layer Perceptron (MLP) on the Fashion-MNIST dataset.
 
-## 사용 기술
-- Python
-- TensorFlow / Keras
-- MNIST Dataset
-- Dense Layer, ReLU, Softmax
+## Overview
+- Dataset: [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)
+- Model: Input → Flatten → Dense(128, ReLU) × 2 → Dense(10, Softmax)
+- Loss Function: Categorical Crossentropy
+- Optimizer: Adam
 
-## 모델 구조
-- 입력층: 784 (28x28 이미지 평탄화)
-- 은닉층: Dense(128) + ReLU, Dropout(optional)
-- 출력층: Dense(10) + Softmax
+## Files
+- `main.py`: Entry point for loading data, training, and prediction
+- `ImageClassifier_MLP.py`: MLP model class definition
+- `onehot_utils.py`: One-hot encoding utility function
 
-## 실행 방법
+## Result
+| Sample Output |
+|---------------|
+| ![prediction](results/sample_prediction.png) |
+
+## How to Run
 ```bash
+pip install -r requirements.txt
 python main.py
+
