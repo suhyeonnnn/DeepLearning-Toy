@@ -11,12 +11,13 @@ A simple image classification project using Multi-Layer Perceptron (MLP) on the 
 ## Files
 - `main.py`: Entry point for loading data, training, and prediction
 - `ImageClassifier_MLP.py`: MLP model class definition
-- `onehot_utils.py`: One-hot encoding utility function
+- `data_preprocessing.py`: One-hot encoding utility function
+
 
 ## Result
 | Sample Output |
 |---------------|
-| ![prediction](results/sample_prediction.png) |
+| ![Sample Predictions](results/sample_predictions.png) |
 
 ## How to Run
 ```bash
