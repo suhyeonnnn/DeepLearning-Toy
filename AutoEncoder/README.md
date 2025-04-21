@@ -29,15 +29,14 @@
 
 ## 결과
 
-### 원본 이미지와 복원 이미지 비교
-아래 이미지는 테스트 데이터의 입력 이미지(위)와 AutoEncoder를 통해 복원된 이미지(아래)를 비교한 결과입니다.
+아래는 AutoEncoder가 복원한 이미지 결과입니다.  
+왼쪽은 원본과 복원 이미지 비교, 오른쪽은 숫자별 평균 Code로 복원한 결과입니다.
 
-![original_vs_reconstructed](results/results1.png)
+<p align="center">
+  <img src="results/results1.png" width="45%">
+  <img src="results/results2.png" width="45%">
+</p>
 
-### 숫자별 평균 Code 기반 복원 이미지
-각 숫자 클래스별로 Code의 평균을 구한 뒤, Decoder에 입력해 복원한 이미지입니다.
-
-![avg_digit_reconstructions](results/results2.png)
 
 
 ### 1. 라이브러리 설치
