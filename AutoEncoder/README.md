@@ -27,6 +27,18 @@
 - `model/ae_model.weights.h5`: 저장된 모델 가중치
 - `results/`: 복원 이미지 및 평균 복원 이미지 저장
 
+## 결과
+
+### 원본 이미지와 복원 이미지 비교
+아래 이미지는 테스트 데이터의 입력 이미지(위)와 AutoEncoder를 통해 복원된 이미지(아래)를 비교한 결과입니다.
+
+![original_vs_reconstructed](results/AutoEncoder result1.png)
+
+### 숫자별 평균 Code 기반 복원 이미지
+각 숫자 클래스별로 Code의 평균을 구한 뒤, Decoder에 입력해 복원한 이미지입니다.
+
+![avg_digit_reconstructions](results/AutoEncoder result2.png)
+
 ### 1. 라이브러리 설치
 ```bash
 pip install tensorflow numpy matplotlib
